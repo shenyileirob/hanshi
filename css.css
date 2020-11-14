@@ -1,0 +1,93 @@
+@font-face
+{
+	font-family: 'gmongol';
+	src:
+		local('MWG3_demo'), 
+		url('MWG3_demo.ttf') format('opentype');
+}
+.IPA
+{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+}
+.xlit
+{
+	font-family: 'Segoe UI';
+	font-size: 15px;
+	font-style: italic;
+}
+.gmongol
+{
+	font-family: gmongol;
+	font-size: 48px;
+}
+
+.sidenav {
+  /*
+  width: 130px;
+  */
+  top: 0px;
+  left: 0px;
+  position: fixed;
+  z-index: 1;
+  background: #eee;
+  overflow-x: hidden;
+  padding: 5px 5px;
+}
+/*
+.main {
+  margin-right: 75px; /* reserved for sidenav
+  padding: 0px 10px;
+}
+*/
+.xlittb {
+	display:none;
+}
+.xlitmongol {
+	font-family: gmongol;
+	text-align: left;
+}
+.xlitsmlcps {
+	font-size: smaller;
+	/*font-variant: small-caps;*/
+	text-align: left;
+}
+.xlitlatin {
+	text-align: right;
+  font-family: Consolas,"courier new";
+  padding: 0px 0px 0px 5px;
+/*  color: crimson;
+  font-size: 105%;
+  background-color: #fff;*/
+}
+
+.w3-input, .table_text, label
+{
+	padding: 0px 8px;
+}
+td
+{
+	padding: 0;
+}
+.rotate
+{
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	-o-transform: rotate(90deg);
+	transform: rotate(90deg);
+
+	/* also accepts left, right, top, bottom coordinates; not required, but a good idea for styling */
+	-webkit-transform-origin: 50% 50%;
+	-moz-transform-origin: 50% 50%;
+	-ms-transform-origin: 50% 50%;
+	-o-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+
+	/* Should be unset in IE9+ I think. */
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+}
+h1
+{
+	text-align:center;
+}
