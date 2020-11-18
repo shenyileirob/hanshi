@@ -48,6 +48,3 @@ In the representations below, \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+1
 
 ## Preview
 https://shenyileirob.github.io/hanshi/
-
-## Download
-https://raw.githubusercontent.com/shenyileirob/hanshi/main/MWG3_demo.ttf
