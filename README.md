@@ -9,21 +9,22 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 * Prompt for illicit strings: Invalid control characters are rendered visible in this font, and it clearly differentiates illicit positional forms from out-of-context forms (segments terminated by ZWJs) or abbreviations (segments terminated by nirugus): ***s*** = ᠰ, ***s***+`ZWJ` = ᠰ‍, ***s***+`nirugu` = ᠰ᠊; ***bey*** = ᠪᠡᠶ (halfway in typing ***bey_e*** ᠪᠡᠶ᠎ᠡ).
 
 ## Representation tips
-In the representations below, \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+180B`, \<³\> = `FVS3` = `U+180D`, \<*ʔ*\> = `SSBM` = `U+1807`.
+### Hudum Mongolian
+(In C-M Joint transcription, plus \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+180B`, \<³\> = `FVS3` = `U+180D`, \<*ʔ*\> = `SSBM` = `U+1807`)
 * ***i*** as a medial offglide
 	* Regular double-shin: no FVS
 		* ***ail***
-	* Irregular single-shin: `CGJ`
+	* Irregular single-shin: ...+`CGJ`
 		* ***nai***\<⁰\>***ma***
 * ***y***
 	* Regular hooked shin: no FVS
 		* ***mayig***
-	* Irregular hookless shin: `CGJ`
-		* ***namay***\<⁰\>***i***, ***čimay***\<⁰\>***i***, ***say***\<⁰\>***i***
-* (*o*) ***u*** (*ö*) ***ü*** after an initial consonant
-	* Irregular bare belly: `FVS3`
+	* Irregular hookless shin: ...+`CGJ`
+		* ***namay***\<⁰\>***i***, ***čimay***\<⁰\>***i***
+* (*o*), ***u***, (*ö*), ***ü*** after an initial consonant
+	* Irregular bare belly: ...+`FVS3`
 		* ***bü***\<³\>***ü***, ***xü***\<³\>***ü***, ***xü***\<³\>
-	* Irregular hollow belly: `CGJ`
+	* Irregular hollow belly: ...+`CGJ`
 		* ***mü***\<⁰\>, ***d***\<¹\>***u***\<⁰\>, ***ču***\<⁰\>
 	* Regular forms found in the 12 syllabaries: no FVS
 * ***g***
@@ -34,17 +35,31 @@ In the representations below, \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+1
 		* ***ǰigde*** (feminine word)
 		* ***bolšëwig*** (bigender word)
 		* ***migman*** (masculine word)
-	* Feminine coda in masculine shaping context: `FVS3`
+	* Feminine coda in masculine shaping context: ...+`FVS3`
 		* ***og***\<³\>***yu***, ***abisig***\<³\> (masculine word)
 	* Masculine coda in masculine shaping context: no FVS
 		* ***mëxanig*** (bigender word)
-	* Masculine coda in feminine shaping context: `CGJ`
+	* Masculine coda in feminine shaping context: ...+`CGJ`
 		* ***nig***\<⁰\>***ta*** (masculine word)
 		* ***ig***\<⁰\>***či*** (neuter word)
-* Common alternative forms of ***a o ö ü n t d***: `FVS1`
+* Common alternative forms of ***a***, ***o***, ***ö***, ***ü***, ***n***, ***t***, ***d***: ...+`FVS1`
 	* ***aü***\<¹\>***t***\<¹\>***o***\<¹\>, ***sëkü***\<¹\>***n***\<¹\>***d***\<¹\>, ***xaramö***\<¹\>***ren***, ***a***\<¹\>
-* Vowel-led second stems: `SSBM`
+* Vowel-led second stems: `SSBM`+...
 	* ***altan***\<*ʔ*\>***odo***, ***buyan***\<*ʔ*\>***öljei***, ***čimed***\<*ʔ*\>***odcar***, ***čog***\<*ʔ*\>***agula***
+
+### Manchu
+(In Abkai transcription)
+* ***tvku***, ***tvmbi***
+* ***buk'vri***, ***buk'vn***: ***k'***=`U+183A` ('loan *k*')
+* ***neh'v***, ***neh'vji***, ***welh'vme***: ***h'***=`U+186D` ('loan *h*')
+* Dotted final ***n***: ...+`FVS1`
+
+### Manchu Ali Gali
+* Ali Gali ***ge***, ***gi***: ***g***+`FVS2`+***e***, ***g***+`CGJ`+***i***
+* Tibetan alternative final ***n, s***: ...+`FVS1`
+* Tibetan **a-chung**: `U+1887`
+* Sanskrit final ***aa***: ***a***+`U+1887`
+* Sanskrit medial ***aa***: ***a***+`U+1887`+***a***
 
 ## Preview
 https://shenyileirob.github.io/hanshi/
