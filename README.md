@@ -45,7 +45,7 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 * Common alternative forms of ***a***, ***o***, ***ö***, ***ü***, ***n***, ***t***, ***d***: ...+`FVS1`
 	* ***aü***\<¹\>***t***\<¹\>***o***\<¹\>, ***sëkü***\<¹\>***n***\<¹\>***d***\<¹\>, ***xaramö***\<¹\>***ren***, ***a***\<¹\>
 * Vowel-led second stems: `SSBM`+...
-	* ***altan***\<*ʔ*\>***odo***, ***buyan***\<*ʔ*\>***öljei***, ***čimed***\<*ʔ*\>***odcar***, ***čog***\<*ʔ*\>***agula***
+	* ***altan***\<*ʔ*\>***odo***, ***buyan***\<*ʔ*\>***ö\<¹\>ljei***, ***čimed***\<*ʔ*\>***odcar***, ***čog***\<*ʔ*\>***agula***
 
 ### Manchu
 (In Abkai transcription)
