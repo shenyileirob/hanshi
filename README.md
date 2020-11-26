@@ -58,7 +58,7 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 * Ali Gali ***ge***, ***gi***: ***g***+`FVS2`+***e***, ***g***+`CGJ`+***i***
 * Tibetan alternative final ***n, s***: ...+`FVS1`
 * Tibetan **a-chung**: ***ɦ*** (= `U+1887` = 'Ali Gali *a*')
-* Sanskrit ***aa***: isolately/finally ***aɦ***; initially/medially ***aɦa***
+* Sanskrit ***ā***: isolately/finally ***aɦ***; initially/medially ***aɦa***
 * Sanskrit ***ṛ***, ***ṝ***, ***ḷ***, ***ḹ***: isolately/initially ***rï***, ***rïi***, ***lï***, ***lïi***; medially/finally ***irï***, ***irïi***, ***ilï***, ***ilïi*** (***ï***  = `U+1888` = 'Ali Gali *i*')
 
 ## Preview
