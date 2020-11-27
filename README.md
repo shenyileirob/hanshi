@@ -46,6 +46,7 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 	* ***aü***\<¹\>***t***\<¹\>***o***\<¹\>, ***sëkü***\<¹\>***n***\<¹\>***d***\<¹\>, ***xaramö***\<¹\>***ren***, ***a***\<¹\>
 * Vowel-led second stems: `SSBM`+...
 	* ***altan***\<*ʔ*\>***odo***, ***buyan***\<*ʔ*\>***ö\<¹\>ljei***, ***čimed***\<*ʔ*\>***odcar***, ***čog***\<*ʔ*\>***agula***
+* Owing to Unicode encoding conflict, the default logic of rendering the final ***m*** with a long tail and the onset ***n*** with a floating dot follows that of the Manchu script in this font. Use ***m***\<¹\> to get the Hudum form with a short tail; use ***n***\<¹\> to suppress the floating of the dot if needed.
 
 ### Manchu
 (In Abkai transcription)
