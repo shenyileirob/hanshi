@@ -10,7 +10,7 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 
 ## Representation tips
 ### Hudum Mongolian
-(In C-M Joint transcription, plus \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+180B`, \<³\> = `FVS3` = `U+180D`, \<*ʔ*\> = `SSBM` = `U+1807`)
+(In C-M Joint transcription, plus \<⁰\> = `CGJ` = `U+034F`, \<¹\> = `FVS1` = `U+180B`, \<²\> = `FVS2` = `U+180C`, \<³\> = `FVS3` = `U+180D`, \<*ʔ*\> = `SSBM` = `U+1807`)
 * ***i*** as a medial offglide
 	* Regular double-shin: no FVS
 		* ***ail***
@@ -46,7 +46,7 @@ A handwriting font with full support for Hudum Mongolian, Sibe, Manchu and Manch
 	* ***aü***\<¹\>***t***\<¹\>***o***\<¹\>, ***sëkü***\<¹\>***n***\<¹\>***d***\<¹\>, ***xaramö***\<¹\>***ren***, ***a***\<¹\>
 * Vowel-led second stems: `SSBM`+...
 	* ***altan***\<*ʔ*\>***odo***, ***buyan***\<*ʔ*\>***ö\<¹\>ljei***, ***čimed***\<*ʔ*\>***odcar***, ***čog***\<*ʔ*\>***agula***
-* Owing to Unicode encoding conflict, the default logic of rendering the final ***m*** with a long tail and the onset ***n*** with a floating dot follows that of the Manchu script in this font. Use ***m***\<¹\> to get the Hudum form with a short tail; use ***n***\<¹\> to suppress the floating of the dot if needed.
+* Owing to Unicode encoding conflict, the default logic of rendering the final ***m*** with a long tail and the onset ***n*** with a floating dot follows that of the Manchu script in this font. Use ***m***\<¹\> to get the Hudum form with a short tail; use ***n***\<²\> to suppress the floating of the dot if needed.
 
 ### Manchu
 (In Abkai transcription)
